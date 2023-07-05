@@ -1,8 +1,9 @@
 import { css } from '../../../styled-system/css'
 import logo from '../../assets/logo-infomaniak.svg'
 import Dropdown from './Dropdown';
-import Links from './Links';
+// import Links from './Links';
 import Switch from './Switch';
+import Tabs from './Tabs';
 
 const Header = () => {
   
@@ -12,7 +13,8 @@ const Header = () => {
         <a href="">
           <img className={css({ height: '19.19px', marginRight: '40px' })} src={logo} alt="" />
         </a>
-        <Links />
+        {/* <Links /> */}
+        <Tabs />
         <div className={css({ display: 'flex', alignItems: 'center', gap: '5px', marginLeft: 'auto' })}>
           <Dropdown />
           <Switch />
