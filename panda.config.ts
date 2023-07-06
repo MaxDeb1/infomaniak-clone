@@ -22,9 +22,9 @@ export default defineConfig({
             '0%': { opacity: '1' },
             '100%': { opacity: '0' }
           },
-          grow: {
-            '0%': { transform: 'scale(0)' },
-            '100%': { transform: 'scale(1)' }
+          roundtime: {
+            '0%': { transform: 'scaleX(0)' },
+            '100%': { transform: 'scaleX(1)' }
           }
         }
       }

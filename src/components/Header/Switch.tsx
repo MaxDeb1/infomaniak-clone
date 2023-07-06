@@ -1,23 +1,15 @@
 import { useState } from 'react';
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { ToastBar, Toaster } from 'react-hot-toast';
 import { css } from '../../../styled-system/css'
+import Toast from './Toast';
 
 const Switch = () => {
   const [ tva, setTva ] = useState(false)
-  const notify = () => toast.success((t) => (
-    <div>
-      <span className={css({ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '1rem', fontWeight: 'bold' })}>
-        Prix mis à jour
-        <button 
-          className={css({ cursor: 'pointer' })}
-          onClick={() => toast.dismiss(t.id)}
-        >X</button>
-      </span>
-      <p className={css({ paddingBlock: '0.5rem', fontSize: '0.75rem' })}>L'ensemble des prix sont maintenant affichés en <span className={css({ fontWeight: 'bold' })}>{ tva ? 'Hors Taxes (HT)' : 'Toute Taxes Comprises (TTC)'}</span></p>
-    </div>
+  const notify = () => toast((t) => (
+    <Toast t={t} tva={tva}/>
   ),
   {
-    duration: 4000,
+    duration: 2500,
     style: {
       width: '280px',
     },
@@ -40,7 +32,17 @@ const Switch = () => {
         className={css({ width: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '5px', cursor: 'pointer' })}
         onClick={handleClick}
       >TTC</div>
-      <Toaster />
+      <Toaster>
+        {(t) => (
+          <ToastBar
+            toast={t}
+            style={{
+              ...t.style,
+              animation: t.visible ? 'custom-enter 0.2s ease' : 'custom-exit 0.2s ease',
+            }}
+          />
+        )}
+      </Toaster>
     </div>
   );
 };

@@ -1,1 +1,21 @@
 @layer reset, base, tokens, recipes, utilities; 
+
+/* Success toast container */
+.go2072408551 {
+  margin-top: 12px;
+  padding: 5px 9px;
+  border-inline: 2px solid #FFFFFF;
+  border-block: 1px solid #FFFFFF;
+  overflow: hidden;
+}
+
+.go3958317564 {
+  margin: 0;
+}
+
+/* Success toast icon */
+.go685806154 {
+  align-items: flex-start;
+  height: 100%;
+  margin-top: 10px;
+}
