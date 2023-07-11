@@ -3,7 +3,7 @@ import toast, { ToastBar, Toaster } from 'react-hot-toast';
 import { css } from '../../../styled-system/css'
 import Toast from './Toast';
 
-const Switch = () => {
+const TVASwitch = () => {
   const [ tva, setTva ] = useState(false)
   const notify = () => toast((t) => (
     <Toast t={t} tva={tva}/>
@@ -47,4 +47,4 @@ const Switch = () => {
   );
 };
 
-export default Switch;
+export default TVASwitch;

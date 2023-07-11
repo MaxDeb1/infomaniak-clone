@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { css } from '../../../styled-system/css'
 
-const Dropdown = () => {
+const Language = () => {
   const [ isOpen, setIsOpen ] = useState(false)
   const [ isActive, setisActive ] = useState('FR')
 
@@ -50,4 +50,4 @@ const Dropdown = () => {
     );
 };
 
-export default Dropdown;
+export default Language;
