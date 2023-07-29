@@ -7,7 +7,8 @@ const Layout = ({ children }: React.PropsWithChildren) => {
     <div
       className={css({
         width: "100%",
-        display: "flex",
+        display: "none",
+        // display: "flex",
         backgroundColor: "#FFFFFF",
         position: "absolute",
         left: "0",

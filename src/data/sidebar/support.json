@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "name": "Questions fréquentes",
+      "desc": "1 000 FAQ, 500 tutoriels et vidéos explicatives"
+    },
+    {
+      "name": "Contact commercial",
+      "desc": "Pour les entreprises, ONG et administrations publiques"
+    },
+    {
+      "name": "Documentation pour les développeurs",
+      "desc": "Intégrez nos services et créez vos apps avec notre API."
+    },
+    {
+      "name": "À propos du support",
+      "desc": "Proche de nos clients et à l'écoute"
+    },
+    {
+      "name": "Offre Support Premium",
+      "desc": "Un support dédié à vos besoins"
+    }
+  ]
+}

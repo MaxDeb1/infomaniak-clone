@@ -1,0 +1,32 @@
+{
+  "services": [
+    {
+      "name": "Visons et valeurs",
+      "desc": "Notre vision, nos engagements"
+    },
+    {
+      "name": "L'équipe",
+      "desc": "Infomaniak, c'est avant tout une aventure humaine"
+    },
+    {
+      "name": "Engagement écologique",
+      "desc": "Nous polluons et nous agissons pour atténuer notre impact"
+    },
+    {
+      "name": "Infomaniak recrute",
+      "desc": "Envie de contribuer à un Web plus éthique ?"
+    },
+    {
+      "name": "Presse et communications",
+      "desc": "Logos, communiqués de presse, etc"
+    },
+    {
+      "name": "Blog et actualités",
+      "desc": "Découvrez les dernières évolutions de nos services"
+    },
+    {
+      "name": "Partenaires et revendeurs",
+      "desc": "Travaillez avec Infomaniak et découvrez tous les avantages"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "services": [
+    {
+      "name": "Nos best  sellers"
+    },
+    {
+      "name": "Je souhaite"
+    },
+    {
+      "name": "Nom de domaine"
+    },
+    {
+      "name": "Hébergement et Cloud"
+    },
+    {
+      "icon": "./src/assets/kSuite.png",
+      "name": "kSuite"
+    },
+    {
+      "name": "Sauvegarde & Stockage"
+    },
+    {
+      "name": "Marketing"
+    },
+    {
+      "name": "Billeterie"
+    },
+    {
+      "name": "Multimédia"
+    }
+  ]
+}

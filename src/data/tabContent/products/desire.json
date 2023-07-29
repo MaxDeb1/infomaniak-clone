@@ -1,0 +1,58 @@
+{
+  "desire": [{
+    "column1":  [
+      {
+        "type": "Créer un site internet",
+        "list": [
+          "Découvrir nos solutions cloud et hébergement",
+          "Créer un site avec le générateur de site Infomaniak",
+          "Créer un site avec WordPress",
+          "Créer un site avec CMS",
+          "Rechercher une agance web pour créer un site"
+        ]
+      },
+      {
+        "type": "Créer un site internet",
+        "list": [
+          "Découvrir nos solutions cloud et hébergement",
+          "Créer un site avec le générateur de site Infomaniak",
+          "Créer un site avec WordPress",
+          "Créer un site avec CMS",
+          "Rechercher une agance web pour créer un site"
+        ]
+      }
+    ]},
+    {
+    "column2":  [
+      {
+        "icon": "./src/assets/kDrive.svg",
+        "type": "Collaborer en ligne",
+        "list": [
+          "Créer une adresse mail",
+          "Stocker mes données"
+        ]
+      },
+      {
+        "type": "Stocker mes données",
+        "list": [
+          "kDrive",
+          "Swiss Backup",
+          "Nas Synology"
+        ]
+      }
+    ]},
+    {
+    "column3": [
+      {
+        "type": "Gérer mon organisation",
+        "list": [
+          "Payer une facture",
+          "Renouveler un produit",
+          "Obtenir Renewal Warranty",
+          "Devenir partenaire",
+          "Devenir affilié"
+        ]
+      }
+  ]}
+  ]
+}

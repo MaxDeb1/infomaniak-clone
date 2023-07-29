@@ -4,8 +4,13 @@ import Popup from './Popup';
 
 const MenuApplications = () => {
   const [ isPopupOpen, setIsPopupOpen] = useState(false)
-  const handleClick = () => {
-    setIsPopupOpen(!isPopupOpen)
+  const handleClick = (e: React.MouseEvent<HTMLInputElement>) => {
+    e.stopPropagation();
+    console.log("click button");
+    if (!isPopupOpen) {
+      setIsPopupOpen(!isPopupOpen)
+    }
+    return null
   }
 
   return (

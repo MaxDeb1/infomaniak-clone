@@ -16,8 +16,8 @@ const Popup = ({isPopupOpen, setIsPopupOpen}: Props) => {
   });
 
   return (
-    <div className={css({ width: '328px', backgroundColor: '#ffffff', color: '#333333', border: 'none', borderRadius: '10px', boxShadow: '0 1px 10px #00000026', fontFamily: 'Roboto, sans-serif', position: 'absolute', top: '76px', right: '0', _after: { content: '""', position: 'absolute', bottom: '99%', right: '7.5%', marginRight: '-5px', borderWidth: '10px', borderStyle: 'solid', borderColor: 'transparent transparent #FFF transparent'}, zIndex: '10' })}>
-      <div className={css({ marginBlock: '24px', borderRadius: '10px' })} ref={ref}>
+    <div className={css({ width: '328px', backgroundColor: '#ffffff', color: '#333333', border: 'none', borderRadius: '10px', boxShadow: '0 1px 10px #00000026', fontFamily: 'Roboto, sans-serif', position: 'absolute', top: '76px', right: '0', _after: { content: '""', position: 'absolute', bottom: '99%', right: '7.5%', marginRight: '-5px', borderWidth: '10px', borderStyle: 'solid', borderColor: 'transparent transparent #FFF transparent'}, zIndex: '10' })} ref={ref} >
+      <div className={css({ marginBlock: '24px', borderRadius: '10px' })}>
         <div className={css({ paddingInline: '24px' })}>
           <div className={css({ marginBottom: '16px', color: 'rgb(133, 162, 182)', textTransform: 'uppercase', textAlign: 'left', fontSize: '12px', })}>
             Applications
